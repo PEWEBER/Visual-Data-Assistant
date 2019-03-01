@@ -1,0 +1,255 @@
+body{
+	background: black;
+}
+img {
+    left: 30px;
+    position: absolute;
+}
+h1{
+	color: white;
+	text-align: center;
+}
+/*.donut-ring {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}*/
+div.grey_rectangle{
+    width: 110px;
+    height: 30px;
+    background:grey;
+    right: 16%;
+    top: 35%;
+    position: absolute;
+}
+div.grey_rectangle2{
+    width: 110px;
+    height: 30px;
+    background:grey;
+    right: 17.5%;
+    top: 45%;
+    position: absolute;
+}
+div.grey_rectangle3{
+    width: 110px;
+    height: 30px;
+    background:grey;
+    right: 17%;
+    top: 55%;
+    position: absolute;
+}
+/*
+.ring {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+}
+
+.ring.red {
+    top: 0;
+    left: 0;
+    background-color: green;
+    border-radius: 150% 0 0 0;
+}
+
+.ring.blue {
+    top: 0;
+    right: 0;
+    background-color: green;
+    border-radius: 0 150% 0 0;
+}
+
+.ring.orange {
+    bottom: 0;
+    left: 0;
+    background-color: green;
+    border-radius: 0 0 0 150%;
+}
+
+.ring.green {
+    bottom: 0;
+    right: 0;
+    background-color: green;
+    border-radius: 0 0 150% 0;
+}
+
+.cutout {
+    width: 50%;
+    height: 50%;
+    background-color: black;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    border-radius: 50%;
+    pointer-events: none;
+}*/
+div.green_circle{
+    background: green;
+    border-radius: 50%;
+    height: 600px;
+    width: 600px;
+    right: -45%;
+    top: -0.5%;
+    position: absolute;
+}
+div.black_circle{
+    background: black;
+    border-radius: 50%;
+    height: 575px;
+    width: 575px;
+    right: -45%;
+    top: 1%;
+    position: absolute;
+}
+div.blue_circle{
+    background: blue;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    right: 3%;
+    top: 29%;
+    position: absolute;
+}
+div.black_circle2{
+    background: black;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    right: 4.5%;
+    top: 31%;
+    position: absolute;
+}
+div.quote{
+    color: yellow;
+    bottom: 20%;
+    left: 3%;
+    right: 50%;
+    position: absolute;
+}
+div.unlock{
+    background: white;
+    border-radius: 50%;
+    height: 100%;
+    width: 250px;
+    right: -22%;
+    top: -2%;
+    position: absolute;
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+}
+div.time{
+    color: yellow;
+    top: 20%;
+    left: 10%;
+    position: absolute;
+}
+div.weather{
+    color: yellow;
+    top: 40%;
+    left: 12%;
+    position: absolute;
+}
+div.clock{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background: yellow;
+    position: absolute;
+    left: -75%;
+    top: 20%;
+}
+div.black_clock{
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    background: black;
+    left: -73%;
+    top: 25%;
+    position: absolute;
+}
+div.yellow_rectangle{
+    width: 5px;
+    height: 15px;
+    background:yellow;
+    left: -48%;
+    top: 20%;
+    position: absolute;
+}
+div.yellow_rectangle2{
+    width: 19.5px;
+    height: 5px;
+    background:yellow;
+    left: -48%;
+    top: 60%;
+    position: absolute;
+}
+div.cloud{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background: yellow;
+    position: absolute;
+    left: 3%;
+    top: 40%;
+}
+div.cloud2{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background: yellow;
+    position: absolute;
+    left: 1.5%;
+    top: 43%;
+}
+div.cloud3{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background: yellow;
+    position: absolute;
+    left: 7%;
+    top: 43%;
+}
+div.diamond1{
+    height: 10px;
+    width: 10px;
+    background: dodgerblue;
+    position: absolute;
+    right: 15%;
+    transform: rotate(45deg);
+}
+div.diamond_line1{
+    height: 3px;
+    width: 8px;
+    background: blue;
+    transform: rotate(16deg);
+    position: absolute;
+    right: 15.5%;
+    top: 2%;
+}
+div.diamond_line2{
+    height: 3px;
+    width: 8px;
+    background: blue;
+    transform: rotate(170deg);
+    position: absolute;
+    right: 14.7%;
+    top: 2%;
+}
+div.diamond_line3{
+    height: 8px;
+    width: 3px;
+    background: blue;
+    position: absolute;
+    right: 15.4%;
+    top: 2%;
+}
+div.gems_number{
+    position: absolute;
+    top: -2%;
+    right: 12%;
+}
+p{
+    color: yellow;
+}
