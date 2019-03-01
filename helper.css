@@ -18,78 +18,33 @@ div.grey_rectangle{
     width: 110px;
     height: 30px;
     background:grey;
-    right: 16%;
-    top: 35%;
+    right: 125px;
+    top: 225px;
     position: absolute;
 }
 div.grey_rectangle2{
     width: 110px;
     height: 30px;
     background:grey;
-    right: 17.5%;
-    top: 45%;
+    right: 135px;
+    top: 300px;
     position: absolute;
 }
 div.grey_rectangle3{
     width: 110px;
     height: 30px;
     background:grey;
-    right: 17%;
-    top: 55%;
+    right: 125px;
+    top: 375px;
     position: absolute;
 }
-/*
-.ring {
-    position: absolute;
-    width: 50%;
-    height: 50%;
-}
-
-.ring.red {
-    top: 0;
-    left: 0;
-    background-color: green;
-    border-radius: 150% 0 0 0;
-}
-
-.ring.blue {
-    top: 0;
-    right: 0;
-    background-color: green;
-    border-radius: 0 150% 0 0;
-}
-
-.ring.orange {
-    bottom: 0;
-    left: 0;
-    background-color: green;
-    border-radius: 0 0 0 150%;
-}
-
-.ring.green {
-    bottom: 0;
-    right: 0;
-    background-color: green;
-    border-radius: 0 0 150% 0;
-}
-
-.cutout {
-    width: 50%;
-    height: 50%;
-    background-color: black;
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    border-radius: 50%;
-    pointer-events: none;
-}*/
 div.green_circle{
     background: green;
     border-radius: 50%;
     height: 600px;
     width: 600px;
-    right: -45%;
-    top: -0.5%;
+    right: -350px;
+    top: 20px;
     position: absolute;
 }
 div.black_circle{
@@ -97,8 +52,8 @@ div.black_circle{
     border-radius: 50%;
     height: 575px;
     width: 575px;
-    right: -45%;
-    top: 1%;
+    right: -350px;
+    top: 25px;
     position: absolute;
 }
 div.blue_circle{
@@ -121,9 +76,9 @@ div.black_circle2{
 }
 div.quote{
     color: yellow;
-    bottom: 20%;
-    left: 3%;
-    right: 50%;
+    bottom: 100px;
+    left: 50px;
+    right: 300px;
     position: absolute;
 }
 div.unlock{
@@ -140,14 +95,14 @@ div.unlock{
 }
 div.time{
     color: yellow;
-    top: 20%;
-    left: 10%;
+    top: 75px;
+    left: 75px;
     position: absolute;
 }
 div.weather{
     color: yellow;
-    top: 40%;
-    left: 12%;
+    top: 255px;
+    left: 100px;
     position: absolute;
 }
 div.clock{
@@ -190,8 +145,8 @@ div.cloud{
     width: 50px;
     background: yellow;
     position: absolute;
-    left: 3%;
-    top: 40%;
+    left: 25px;
+    top: 255px;
 }
 div.cloud2{
     border-radius: 50%;
@@ -199,8 +154,8 @@ div.cloud2{
     width: 30px;
     background: yellow;
     position: absolute;
-    left: 1.5%;
-    top: 43%;
+    left: 15px;
+    top: 275px;
 }
 div.cloud3{
     border-radius: 50%;
@@ -208,15 +163,15 @@ div.cloud3{
     width: 30px;
     background: yellow;
     position: absolute;
-    left: 7%;
-    top: 43%;
+    left: 55px;
+    top: 275px;
 }
 div.diamond1{
     height: 10px;
     width: 10px;
     background: dodgerblue;
     position: absolute;
-    right: 15%;
+    right: 115px;
     transform: rotate(45deg);
 }
 div.diamond_line1{
@@ -225,8 +180,8 @@ div.diamond_line1{
     background: blue;
     transform: rotate(16deg);
     position: absolute;
-    right: 15.5%;
-    top: 2%;
+    right: 120px;
+    top: 13px;
 }
 div.diamond_line2{
     height: 3px;
@@ -234,21 +189,21 @@ div.diamond_line2{
     background: blue;
     transform: rotate(170deg);
     position: absolute;
-    right: 14.7%;
-    top: 2%;
+    right: 112px;
+    top: 13px;
 }
 div.diamond_line3{
     height: 8px;
     width: 3px;
     background: blue;
     position: absolute;
-    right: 15.4%;
-    top: 2%;
+    right: 118px;
+    top: 13px;
 }
 div.gems_number{
     position: absolute;
-    top: -2%;
-    right: 12%;
+    top: -10px;
+    right: 90px;
 }
 p{
     color: yellow;
