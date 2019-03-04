@@ -93,12 +93,12 @@ div.unlock{
     cursor: move;
     z-index: 10;
 }
-div.time{
+/*div.time{
     color: yellow;
     top: 75px;
     left: 75px;
     position: absolute;
-}
+}*/
 div.weather{
     color: yellow;
     top: 255px;
@@ -111,32 +111,40 @@ div.clock{
     width: 50px;
     background: yellow;
     position: absolute;
-    left: -75%;
-    top: 20%;
+    left: 25px;
+    top: 75px;
 }
 div.black_clock{
     border-radius: 50%;
     height: 45px;
     width: 45px;
     background: black;
-    left: -73%;
-    top: 25%;
+    left: 28px;
+    top: 78px;
     position: absolute;
 }
 div.yellow_rectangle{
     width: 5px;
-    height: 15px;
+    height: 25px;
     background:yellow;
-    left: -48%;
-    top: 20%;
+    left: 48px;
+    top: 78px;
     position: absolute;
 }
 div.yellow_rectangle2{
-    width: 19.5px;
+    width: 25px;
     height: 5px;
     background:yellow;
-    left: -48%;
-    top: 60%;
+    left: 48px;
+    top: 98px;
+    position: absolute;
+}
+div#txt{
+    width: 25px;
+    height: 25px;
+    color: yellow;
+    top: 98px;
+    left: 78px;
     position: absolute;
 }
 div.cloud{
@@ -171,6 +179,7 @@ div.diamond1{
     width: 10px;
     background: dodgerblue;
     position: absolute;
+    top: 9px;
     right: 115px;
     transform: rotate(45deg);
 }
