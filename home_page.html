@@ -3,23 +3,34 @@
 <head>
 	<title>Home Helper</title>
 	<link rel="stylesheet" type="text/css" href="helper.css">
+	<script>
+function startTime() {
+  var today = new Date();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  var s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =
+  h + ":" + m + ":" + s;
+  var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
 </head>
-<body>
-<div class="time">
+<body onload="startTime()">
+<!--<div class="time">-->
 <div class="clock"></div>
 <div class="black_clock"></div>
 <div class="yellow_rectangle"></div>
 <div class="yellow_rectangle2"></div>
-<br>11:39 A.M.
-</div>
+<!--<br>11:39 A.M.-->
+<div id="txt"></div>
+<!--</div>-->
 <aside>
-<!--<div class="donut-ring">
-    <div class="ring red"></div>
-    <div class="ring blue"></div>
-    <div class="ring orange"></div>
-    <div class="ring green"></div>
-    <div class="cutout"></div>
-</div>-->
 <div class="cloud"></div>
 <div class="cloud2"></div>
 <div class="cloud3"></div>
