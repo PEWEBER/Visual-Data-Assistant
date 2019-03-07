@@ -1,5 +1,6 @@
 body{
 	background: black;
+    overflow: hidden;
 }
 img {
     left: 30px;
@@ -216,4 +217,15 @@ div.gems_number{
 }
 p{
     color: yellow;
+}
+.weather div#temp{
+    color: yellow;
+    display: block;
+}
+.weather div#minutely{
+    color: yellow;
+    display: block;
+}
+.weather div#location{
+    display: none;
 }
